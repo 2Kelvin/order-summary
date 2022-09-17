@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.mainBg {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-image: url(resources/svg/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  height: fit-content;
+  width: 370px;
+}
+
+.bgTopImage {
+  background-image: url(resources/svg/illustration-hero.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.withPaddDiv {
+  padding: 2em;
+  text-align: center;
+}
