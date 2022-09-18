@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position-y: -100px;
-  background-color: hsl(225, 100%, 98%);
+  background-color: hsl(224, 23%, 55%);
 }
 
 .card {
@@ -46,7 +46,7 @@ body {
 }
 
 .grayP {
-  color: gray;
+  color: hsl(224, 23%, 55%);
 }
 
 .gridGreyArea {
@@ -61,7 +61,7 @@ body {
 .changeP {
   justify-self: end;
   text-decoration: underline;
-  color: blueviolet;
+  color: hsl(245, 75%, 52%);
   cursor: pointer;
 }
 
@@ -92,4 +92,43 @@ body {
 
 .annualPlanDiv p:first-child {
   font-weight: 700;
+}
+
+button {
+  width: 100%;
+  margin-top: 2em;
+  border: none;
+  border-radius: 10px;
+  padding: 1.1em 0;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(245, 75%, 52%);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+h5 {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+h5:active {
+  color: black;
+}
+
+small {
+  font-size: 8px;
+}
+
+small a {
+  color: hsl(223, 47%, 23%);
+}
+
+small a:visited {
+  color: hsl(223, 47%, 23%);
 }
